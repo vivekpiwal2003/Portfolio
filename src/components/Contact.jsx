@@ -17,7 +17,7 @@ const Contact = () => {
 
             <div className='text-center'>
                 <h2 className='text-4xl font-bold md:text-5xl mb-4'>
-                    <span className='text-teal-800'>Get</span>
+                    <span className='text-teal-800'>Get In</span>
                     <span className=''> Touch</span>
                 </h2>
                 <p className='text-lg text-black-700 mb-4 mt-6'>
@@ -39,14 +39,20 @@ const Contact = () => {
                             <input type="text" placeholder='Enter Your Email'
                              className='w-full bg-dark-300 border border-dark-400 rounded-lg px-4 py-3 outline-none' />
                         </div>
+                        
                         <div>
-                            <label htmlFor="message" className='block text-black mb-2'>Your Message</label>
-                            <input type="textarea" placeholder='Enter Your Message'
-                             className='w-full h-40  bg-dark-300 border border-dark-400 rounded-lg px-4 py-3 outline-none' />
+                            <label htmlFor="message" className="block text-black mb-2">Your Message</label>
+                            <textarea
+                            id="message"
+                            placeholder="Enter Your Message"
+                            className="w-full h-40 bg-dark-300 border border-dark-400 rounded-lg px-4 py-3 outline-none text-left align-top resize-none"
+                            ></textarea>
                         </div>
+
+
                         <div className='flex justify-center items-center'>
                             <button type='sumbit' 
-                                 className='flex items-center gap-2 px-8 py-4 bg-zinc-800 text-white text-center hover:bg-zinc-900 transition rounded-full cursor-pointer'>Send Message <FaArrowRight/></button>
+                                 className='flex items-start gap-2 px-8 py-4 bg-zinc-800 text-white text-center hover:bg-zinc-900 transition rounded-full cursor-pointer'>Send Message <FaArrowRight/></button>
                         </div>
                     </form>
                 </div>

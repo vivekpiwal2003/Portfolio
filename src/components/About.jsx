@@ -44,9 +44,14 @@ const About = () => {
                 ))
               }
             </div>
-            <button className='bg-zinc-700  text-white py-4 px-8 rounded-full hover:bg-zinc-900 transition duration-300'>
-              Download Resume
-            </button>
+         
+            <a
+            href="/Vivek-Piwal-Resume.pdf"
+            download="Vivek_Piwal_ATS_Resume.docx"
+            className="inline-block bg-zinc-700 text-white py-4 px-8 rounded-full hover:bg-zinc-900 transition duration-300">
+            Download Resume
+            </a>
+
           </div>
 
           <div className='order-2 relative floating'>
